@@ -115,7 +115,7 @@ header a:hover{
     font-size: 1.5em;
 }
 #vidriera{
-    background-image: url("img/header-fondo.jpg") ;
+    background-image: url("../img/header-fondo.jpg") ;
     background-size: cover;
     min-height: 300px;
     background-position: center;
@@ -233,9 +233,28 @@ header a:hover{
     margin:15px;
     transform: rotate(-2deg);
 }
+/*CONTENEDOR SOMOS*/
+.contenedor-somos{
+height: 100%;
+width: 100%;
+margin: 50px auto;
+background-color: rgb(254, 254, 254);
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: center;
+}
+.imagen{
+width: 350px;
+padding: 0px 0px 0px 0px; 
+}
+.parrafo-somos{
+width: 800px;
+margin:20px;
+}
 #vidriera_somos{
     margin-top:0%;
-    background-image: url(img/header_flores.png);
+    background-image: url("../img/header_flores.png");
     min-height: 150px;
     line-height: 100px;
     background-size: cover;
@@ -265,9 +284,6 @@ header a:hover{
     padding-right: 5em;
     padding-bottom: 1em;
     padding-left:1em;
-}
-#texto_somos img{
-    padding-left: 5em
 }
 @media (max-width:  800px) {
     td{

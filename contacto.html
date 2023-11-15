@@ -6,10 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="estilos-footer.css">
-    <link rel="stylesheet" href="estilos-contacto.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos-footer.css">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/estilos-ideas.css">
+    <link rel="stylesheet" href="estilos/estilos-contacto.css">
     <!-- links a tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +61,7 @@
                     <h1>&#10047; Contactate conmigo &#10047;</h1>
                     <div class="underline">
                     </div>
-                    <form action="#" method="post" id="contact_form">
+                    <form method="get" id="contact_form">
                     <div class="nombre">
                         <label for="name"></label>
                         <input type="text" placeholder="Nombre" name="nombre" id="nombre_input" required>
@@ -87,7 +88,7 @@
                         <textarea name="mensaje" placeholder="Mensaje" id="mensaje_input" cols="30" rows="5" required></textarea>
                     </div>
                     <div class="submit">
-                        <input type="submit" value="Enviar" id="form_button" />
+                        <button type="submit" value="Enviar" id="form_button">Enviar</button>
                     </div>
                     </form>
                 </div>

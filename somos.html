@@ -6,9 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="estilos-footer.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos-footer.css">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/estilos-ideas.css">
+    <link rel="stylesheet" href="estilos/estilos-contacto.css">
     <!-- links a tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,13 +59,11 @@
             <div class="contenedor">
                 <article id="texto_somos">
                     <h3>¿Quién soy?</h3>
-                    <table>
-
-                        <tr>
-                            <td class="imagen">
+                    <div class="contenedor-somos">
+                            <div class="imagen">
                                 <img src="img/mi_foto2.jpg" alt="" width="310 px">
-                            </td>
-                            <td>
+                            </div>
+                            <div class="parrafo-somos">
                                 
                                 <P>¡Bienvenidos a Archivo Índigo! Soy Luz Rubini, una entusiasta estudiante de 26 años apasionada por el desarrollo de software y la creación de contenido.
                                 </P>
@@ -81,45 +81,47 @@
                                 <P>En mi tiempo libre, me sumerjo en un mundo de historias fascinantes, ya sea en forma de libros, mangas, animes o videojuegos.<br> 
                                     
                                 </P>
-                            </td>
-                        </tr>
-                </table>    
+                            </div>
+                    </div>    
                 </article>
                 <aside id="texto_somos">
                     <h3>Mis favoritos</h3>
-                    <table>
-                        <tr>
-                            <td>
-                                <img src="img/mis_favoritos.jpg" alt="" width="310 px">
-                            </td>
-                            <td>
-                                <p>Uno de mis mangas favoritos es "Uzumaki" y su creador, Junji Ito, es mi mangaka favorito debido a su capacidad para tejer historias de horror inquietantes y únicas.
-                                    En cuanto a animes, pocos pueden compararse a "Neon Genesis Evangelion" en mi corazón. La complejidad psicológica y el estilo artístico de esta serie me 
-                                    han cautivado desde el primer momento en que la vi.
-                                    Mi videojuego (probalemente) más veces jugado, es "Metal Gear Solid 2", una obra maestra que logra una impactante fusión entre una narrativa cinematográfica y una jugabilidad excepcional, 
-                                    brindando una experiencia verdaderamente memorable.
-                                </P>
-                                <P>
-                                    El nombre de este sitio web, "Archivo Índigo," se inspira en mi álbum musical favorito, "Índigo," del rapero Kim Namjoon. 
-                                    Esta obra musical ha sido una fuente de inspiración y creatividad para mí, y me pareció apropiado honrarla en el nombre de mi rincón virtual.
-                                </P>
-                                <P>
-                                    En "Archivo Índigo," compartiré mi pasión por el desarrollo de software, reseñas de libros y mangas, análisis de animes y videojuegos, 
-                                    y cualquier otro tema que me apasione en un momento dado. Este es un espacio donde puedo combinar mi amor por la tecnología con mis intereses personales 
-                                    y compartirlos con personas de ideas afines. Estoy emocionada por la oportunidad de conectar con ustedes a través de estas páginas y espero que disfruten explorando este mundo conmigo.
-                                </p>
-                            </td>
-                            
-                        </tr>
-                </table>
-
+                    <div class="contenedor-somos">
+                        <div class="imagen">
+                            <img src="img/mis_favoritos.jpg" alt="" width="310 px">
+                        </div>
+                        <div class="parrafo-somos">
+                            <p>Uno de mis mangas favoritos es "Uzumaki" y su creador, Junji Ito, es mi mangaka favorito debido a su capacidad para tejer historias de horror inquietantes y únicas.
+                                En cuanto a animes, pocos pueden compararse a "Neon Genesis Evangelion" en mi corazón. La complejidad psicológica y el estilo artístico de esta serie me 
+                                han cautivado desde el primer momento en que la vi.
+                                Mi videojuego (probalemente) más veces jugado, es "Metal Gear Solid 2", una obra maestra que logra una impactante fusión entre una narrativa cinematográfica y una jugabilidad excepcional, 
+                                brindando una experiencia verdaderamente memorable.
+                            </P>
+                            <P>
+                                El nombre de este sitio web, "Archivo Índigo," se inspira en mi álbum musical favorito, "Índigo," del rapero Kim Namjoon. 
+                                Esta obra musical ha sido una fuente de inspiración y creatividad para mí, y me pareció apropiado honrarla en el nombre de mi rincón virtual.
+                            </P>
+                            <P>
+                                En "Archivo Índigo," compartiré mi pasión por el desarrollo de software, reseñas de libros y mangas, análisis de animes y videojuegos, 
+                                y cualquier otro tema que me apasione en un momento dado. Este es un espacio donde puedo combinar mi amor por la tecnología con mis intereses personales 
+                                y compartirlos con personas de ideas afines. Estoy emocionada por la oportunidad de conectar con ustedes a través de estas páginas y espero que disfruten explorando este mundo conmigo.
+                            </p>
+                        </div>
+                    </div> 
                 </aside>
-                <aside id="texto_somos_gracias">
+                <aside id="texto_somos">
                     <h3 class="resaltado_cursiva">¡Gracias!</h3>
-                    <p>Gracias por visitar "Archivo Índigo" y unirte a mí en este emocionante viaje. 
-                        Si tenes preguntas, comentarios o simplemente quieres compartir tus propias pasiones, ¡no dudes en ponerte en contacto conmigo!
-                    </p>
-                    
+                    <div class="contenedor-somos">
+                        <div class="imagen">
+                            <img src="img/indigo.jpg" alt="" width="310 px">
+                        </div>
+                        <div class="parrafo-somos">
+                            <p>
+                                Gracias por visitar "Archivo Índigo" y unirte a mí en este emocionante viaje. 
+                                Si tenes preguntas, comentarios o simplemente quieres compartir tus propias pasiones, ¡no dudes en ponerte en contacto conmigo!
+                            </p>
+                        </div>
+                    </div> 
                 </aside>
             </div>
         </section>
