@@ -1,0 +1,360 @@
+:root {
+    --azul: #77c9f1;
+    --gris:#E6E6E6;
+    --celeste: #1098B8;
+    --tierra: #D2B48C ;
+    --azuloscuro: #0e44aa;
+
+}
+/* estilos generales  */
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+body{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1;
+}
+/* ESTILOS HEADER */
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+/* ESTILOS HEADER */
+header{
+    flex: 0 0 100%;    
+    background-color: #faf8f8;
+    min-height: 80px;
+    padding-top: 0px;
+    padding-bottom: 0em;
+    border-bottom:#84a7f3 solid 2px;
+    color: #3878f0;
+}
+input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* MENU HAMBURGUESA */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    
+  }
+  @media (max-width: 950px) {
+    .menu_lista {
+        display:none;
+        position: absolute;
+        background-color:#faf8f8;
+        right: 0;
+        text-align: right;
+        padding: 50px 0;
+        flex-direction: column;
+        width: 15em;
+      }
+      .menu_lista li:hover {
+        display: inline-block;
+        transition: 0.3s ease;
+      }
+      .menu_lista li + li {
+        margin-top: 32px;
+      }
+    
+      input[type=checkbox]:checked ~ .menu_lista {
+        display: block;
+        
+      }
+    
+      .hamburger {
+        display: block;
+        padding-right: 1em;
+        
+      }
+}
+nav{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: 25px;
+
+}  
+header li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+#logo{
+
+    padding-left:80px;
+    float: left;
+    background-color: #faf8f8;
+}
+header a{
+    color: #3878f0;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    padding: 30px 15px 26px;
+}
+header a:hover{
+    color: #040505;
+    font-weight: 600;
+
+}
+.resaltado{
+    color: var(--azuloscuro);
+}
+.resaltado_cursiva{
+    color: var(--azuloscuro);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+#vidriera{
+    background-image: url("img/header-fondo.jpg") ;
+    background-size: cover;
+    min-height: 300px;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+}
+#vidriera h2{
+    font-size: 60px;
+    padding-top: 90px;
+    color: var(--azuloscuro);
+    font-family: 'Montserrat', sans-serif;
+
+}
+#vidriera p{
+    font-size: 30px;
+    padding: 26px 130px;
+    color: var(--azuloscuro);
+    font-family: 'Caveat';
+}
+/*ESTILOS NEWSLETTER*/
+#newsletter{
+    background-color: #3e53cf;
+    padding: 15px;
+    min-height: 30px;
+    border-radius: 25px;
+}
+#newsletter h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+    color : white;
+}
+#newsletter form{
+    float: right;
+    line-height: 25px;
+}
+#newsletter input{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+#newsletter button{
+    background-color: #86d5fa;
+    height: 31px;
+    border: none;
+    padding: 0px 20px;
+    color: #020202;
+    border-radius: 5px;
+}
+#newsletter button:hover{
+    background-color: rgb(181, 213, 224);
+}
+@media (max-width: 610px) {
+    #newsletter{
+        min-height: 50px;
+    }
+    #newsletter h3{
+        float: none;
+        text-align: center;
+    }
+    #newsletter input{
+        float: none;
+        align-self: center;
+    }
+    #newsletter form{
+        float: none;
+        align-self: center;
+    }
+    
+}
+/* BOXES */
+
+#boxes{
+    margin-top: 22px;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+#boxes img{
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+#boxes h5{
+    font-size: 30px;
+    font-family: 'Caveat';
+    text-align: center;
+    color: var(--azuloscuro);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#boxes h3{
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+#boxes p{
+    font-size:13px;
+    line-height: 1.5em;
+    margin: 15px;
+}
+#boxes h4{
+    font-size: 2.5em;
+    color: var(--azuloscuro);
+    margin-bottom: 1em;
+    font-weight: 100;
+    text-align: center;
+
+}
+.oddboxinner{
+    margin:15px;
+    transform: rotate(-2deg);
+}
+#vidriera_somos{
+    margin-top:0%;
+    background-image: url(img/header_flores.png);
+    min-height: 150px;
+    line-height: 100px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: var(--azuloscuro);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#vidriera_somos h1{
+    font-size: 5vw;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+#texto_somos h3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: var(--azuloscuro);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+#texto_somos p{
+    padding-right: 5em;
+    padding-bottom: 1em;
+    padding-left:1em;
+}
+#texto_somos img{
+    padding-left: 5em
+}
+@media (max-width:  800px) {
+    td{
+        display:inline-block
+        
+    }
+}
+#texto_somos_gracias p{
+    padding-right: 5em;
+    padding-bottom: 1em;
+    padding-left:5em;
+}
+#texto_somos_gracias h3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 1em;
+    padding-top: 1em
+}
+/*Cambios al css de Steam widgets*/
+#widget .desc {
+    margin: 10px 10px 0 0;
+    font-size: 10px;
+    color: #c9c9c9;
+    line-height: 16px;
+    max-height: 96px;
+    overflow: hidden;
+}
+
+
+/*CONTENEDORES HIJOS DE LA SEMANA*/
+.contenedor-padre-semana{
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box-semana-1,.box-semana-2,.box-semana-3{
+    width: 500px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
+    border: solid;
+    border-color: #84a7f3;
+    font-size: 2em;
+    margin:25px;
+    justify-content: space-between;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px#4868a3;
+}
+/*BOTON DE RESEÑA*/
+a {
+    background-image: linear-gradient(
+      to right,
+      #3e53cf,
+      #3e53cf, 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before{
+    content: '';
+    background: #3e53cf;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before{
+    width: 100%;
+  }

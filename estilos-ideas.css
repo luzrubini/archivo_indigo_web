@@ -1,0 +1,93 @@
+.contenedor-padre-reseña{
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box-reseña{
+    width: 500px;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
+    border: solid;
+    border-color: #84a7f3;
+    font-size: 2em;
+    margin:25px;
+    justify-content: space-between;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px#4868a3;
+}
+.box-reseña-2{
+    width: 500px;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
+    border: solid;
+    border-color: #4868a3;
+    font-size: 2em;
+    margin:25px;
+    justify-content: space-between;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px#84a7f3;
+}
+.titulo-reseña{
+    color: var(--azuloscuro);
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+/* BOXES RESEÑAS*/
+
+#boxes-reseñas img{
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+#boxes-reseñas h2{
+    font-size:13px;
+    line-height: 1.5em;
+    margin: 15px;
+    font-style: oblique;
+}
+#boxes-reseñas h3{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+#boxes-reseñas h4{
+    font-size: 2.5em;
+    color: var(--azuloscuro);
+    margin-bottom: 1em;
+    font-weight: 100;
+    text-align: center;
+
+}
+#boxes-reseñas h5{
+    font-size: 30px;
+    font-family: 'Caveat';
+    text-align: center;
+    color: var(--azuloscuro);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#boxes-reseñas h5 p{
+    color: rgb(81, 131, 40);
+    font-size: 20px;
+}
+#boxes-reseñas p{
+    font-size:13px;
+    line-height: 1.5em;
+    margin: 10px;
+}
+
+.oddboxinner{
+    margin:15px;
+    transform: rotate(-2deg);
+}

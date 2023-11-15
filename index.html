@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos-footer.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- links a tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <!-- fin de links tipografia -->
+
+    <title>Diseño y Desarrollo Web </title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="contenedor">
+
+            <div id="logo">
+                <img src="img/logo_arch_ind.png" alt="" width="150 px">
+            </div>
+
+            <nav>
+                <ul>
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    <div class="menu_lista">
+                        <li><a href="index.html" class="resaltado">Inicio</a></li>
+                        <li><a href="somos.html">Sobre mi</a></li>
+                        <li><a href="ideas.html">Recomendaciones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </div>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="content">
+        <section id="vidriera">
+            <div class="contenedor">
+                <h2>ARCHIVO INDIGO</h2>
+                <p>Un archivo de cosas que me gustan</p>
+            </div>
+
+        </section>
+        <section id="newsletter">
+            <div class="contenedor">
+                <h3>Suscribite a mi newsletter</h3> 
+                <form action="envio.php" method="get"> 
+                <input class="center-block" type="email" name="correo"
+                placeholder="tu e-mail">
+                
+                <button type="submit">Suscribite</button>
+            </form>
+            </div>
+        </section>
+        
+        <section id="boxes">
+            <h4 style="font-style: unset; font-style: initial;">Favoritos de la semana</h4>
+            <div class="contenedor-padre-semana">
+                
+                <div class="box-semana-1">
+                    <h5>Anime</h5>
+                    <img src="img/jjkimg.jpg"alt="poster jjk" >
+                    <p>Dificultades, arrepentimiento, vergüenza… Los sentimientos negativos de los humanos se convierten en Maldiciones que nos acechan en nuestra vida diaria. Las Maldiciones campan a sus anchas por todo el mundo, y pueden llevar a las personas a sufrir terribles desgracias e incluso dirigirlas a su muerte. Y lo que es peor: solo una Maldición puede exorcizar otra Maldición.</p>
+                    <h3><a href="https://www.crunchyroll.com/es/series/GRDV0019R/jujutsu-kaisen"target="_blank">Miralo en Crunchyroll!!</a></h3>
+                </div>
+                <div class="box-semana-2">
+                    <h5>Libro</h5>
+                    <img src="img/libro.jpg"  alt="libro de jane austen">
+                    <p>La señora Bennet ha criado a sus cinco hijas con el único deseo de encontrar marido. La llegada al vecindario de Charles Bingley, un joven rico y soltero, con algunas amistades despierta el interés de las hermanas Bennet y de las familias vecinas, que verán una excelente oportunidad para cumplir su propósito.</p>
+                    <h3><a href="https://www.tematika.com/orgullo-y-prejuicio-9789874715111.html"target="_blank">Conseguilo en Yenny</a></h3>
+                </div>
+                <div class="box-semana-3">
+                    <h5>Música</h5>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4sOtDUp6NiTaKsIEIQlYqc?utm_source=generator" width="100%" height="352" frameBorder="0"  allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <p>Desde Taylor Swift, pasando por algunos OST y llegando hasta ghost estas son unas de las canciones que mas se me pegaron esta semana</p>
+                    <h3><a href="https://open.spotify.com/user/nokh1npdarmxldbxn3bv5i737"target="_blank">Seguime en spotify</a></h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+                
+            <div class="box-footer-hijo-2">
+                <div>
+                    <h5>Alumna:</h5>
+                    <p>Luz Melisa Rubini</p>
+                    <h5>Carrera:</h5>
+                    <p>Tecnicatura en Desarrollo de Software</p>
+                    
+                </div>
+                <div>
+                    <h5>Materia:</h5>
+                    <p>Diseño y Desarrollo Web</p>
+                    <img src="img/LogoUADE.png" alt="" width="150px">
+                </div>
+            </div>
+            <div class="box-footer-hijo-1">
+                <h5>Seguime en mis redes sociales:</h5>
+                <a href="https://steamcommunity.com/id/forg_tful/" target="_blank">
+                    <img src="img/vapor.png" alt="logo de steam" style="width: 55px;"></a>
+                <a href="https://www.instagram.com/archivo.indigo/?hl=es-la" target="_blank" rel="noopener noreferrer">
+                    <img src="img/instagram.png" alt="logo de instagram" style="width: 55px;"> </a>
+                <a href="https://github.com/luzrubini" target="_blank">
+                    <img src="img/github.png" alt="logo de github"style="width: 55px;"></a>
+                <a href="https://www.goodreads.com/user/show/171582615-luz-rubini" target="_blank" rel="noopener noreferrer">
+                    <img src="img/goodreads.png" alt="logo de goodreads"style="width: 55px;"></a>
+            </div>
+            <div class="box-footer-hijo-2">
+                <div>
+                    <h5>Paleta de colores</h5>
+                    <script src="https://coolors.co/palette-widget/widget.js"width="170%"></script>
+                    <script data-id="05685451655271678">new CoolorsPaletteWidget("05685451655271678", ["4868a3","84a7f3","77c9f1","1098b8","0e44aa"]); </script>    
+                </div>
+                <div>
+                    <h5>Fuentes para tipografia utilizadas:</h5>
+                    <p>Montserrat - googleapis</p>
+                    <p>Caveat - googleapis</p>
+                    <p>Handlee - googleapis</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

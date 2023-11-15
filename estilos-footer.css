@@ -1,0 +1,32 @@
+.contenedor-footer{
+    height: 100%;
+    width: 100%;
+    background-color:#4868a3;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box-footer-hijo-1{
+    width: 350px;
+    height: 200px;
+    font-size: 2em;
+    margin-left: 50px;    
+}
+.box-footer-hijo-2{
+    display: flex;
+    width: 550px;
+    height: 200px;
+    font-size: 2em;
+    justify-content: space-between;
+}
+.box-footer-hijo-1 h5,.box-footer-hijo-2 h5{
+    font-size:15px;
+    margin: 10px;
+    color: aliceblue;
+}
+.box-footer-hijo-1 p,.box-footer-hijo-2 p{
+    font-size:15px;
+    margin: 10px;
+    color: aliceblue;
+}
