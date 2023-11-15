@@ -1,13 +1,4 @@
-.contacto-padre{
-    height: 100%;
-    width: 100%;
-    margin: 50px auto;
-    background-color: rgb(254, 254, 254);
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-}
+
 button {
   overflow: visible;
 }
