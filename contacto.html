@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="estilos-footer.css">
+    <link rel="stylesheet" href="estilos-contacto.css">
     <!-- links a tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,13 +25,12 @@
 </head>
 
 <body>
-
     <header>
 
         <div class="contenedor">
 
             <div id="logo">
-                <img src="/img/logo_arch_ind.png" alt="" width="150 px">
+                <img src="img/logo_arch_ind.png" alt="" width="150 px">
             </div>
 
             <nav>
@@ -49,3 +49,93 @@
         </div>
 
     </header>
+    <main class="content">
+        <section id="vidriera_somos">
+            <div class="contenedor">
+                <h1>CONTACTO</h1>
+            </div>
+        </section>
+        <section>
+            <div class = "contacto-padre">
+                <div id="container">
+                    <h1>&#10047; Contactate conmigo &#10047;</h1>
+                    <div class="underline">
+                    </div>
+                    <form action="#" method="post" id="contact_form">
+                    <div class="nombre">
+                        <label for="name"></label>
+                        <input type="text" placeholder="Nombre" name="nombre" id="nombre_input" required>
+                    </div>
+                    <div class="email">
+                        <label for="email"></label>
+                        <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+                    </div>
+                    <div class="telefono">
+                        <label for="name"></label>
+                        <input type="text" placeholder="numero" name="telefono" id="telefono_input" required>
+                    </div>
+                    <div class="asunto">
+                        <label for="subject"></label>
+                        <select placeholder="Subject line" name="asunto" id="asunto_input" required>
+                        <option disabled hidden selected>Asunto</option>
+                        <option>Editoriales</option>
+                        <option>Colaboraciones</option>
+                        <option>Eventos</option>
+                        </select>
+                    </div>
+                    <div class="mensaje">
+                        <label for="mensaje"></label>
+                        <textarea name="mensaje" placeholder="Mensaje" id="mensaje_input" cols="30" rows="5" required></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Enviar" id="form_button" />
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+                
+            <div class="box-footer-hijo-2">
+                <div>
+                    <h5>Alumna:</h5>
+                    <p>Luz Melisa Rubini</p>
+                    <h5>Carrera:</h5>
+                    <p>Tecnicatura en Desarrollo de Software</p>
+                    
+                </div>
+                <div>
+                    <h5>Materia:</h5>
+                    <p>Diseño y Desarrollo Web</p>
+                    <img src="img/LogoUADE.png" alt="" width="150px">
+                </div>
+            </div>
+            <div class="box-footer-hijo-2">
+                <div>
+                    <h5>Paleta de colores</h5>
+                    <script src="https://coolors.co/palette-widget/widget.js"width="170%"></script>
+                    <script data-id="05685451655271678">new CoolorsPaletteWidget("05685451655271678", ["4868a3","84a7f3","77c9f1","1098b8","0e44aa"]); </script>    
+                </div>
+                <div>
+                    <h5>Fuentes para tipografia utilizadas:</h5>
+                    <p>Montserrat - googleapis</p>
+                    <p>Caveat - googleapis</p>
+                    <p>Handlee - googleapis</p>
+                </div>
+            </div>
+            <div class="box-footer-hijo-1">
+                <h5>Seguime en mis redes sociales:</h5>
+                <a href="https://steamcommunity.com/id/forg_tful/" target="_blank">
+                    <img src="img/vapor.png" alt="logo de steam" style="width: 55px;"></a>
+                <a href="https://www.instagram.com/archivo.indigo/?hl=es-la" target="_blank" rel="noopener noreferrer">
+                    <img src="img/instagram.png" alt="logo de instagram" style="width: 55px;"> </a>
+                <a href="https://github.com/luzrubini" target="_blank">
+                    <img src="img/github.png" alt="logo de github"style="width: 55px;"></a>
+                <a href="https://www.goodreads.com/user/show/171582615-luz-rubini" target="_blank" rel="noopener noreferrer">
+                    <img src="img/goodreads.png" alt="logo de goodreads"style="width: 55px;"></a>
+            </div>
+        </div>
+    </footer>
+</body>

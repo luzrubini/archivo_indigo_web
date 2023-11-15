@@ -10,7 +10,7 @@
 }
 .box-reseña{
     width: 500px;
-    height: 800px;
+    height: 850px;
     background-color: rgb(255, 255, 255);
     border-radius: 1%;
     border: solid;
@@ -23,7 +23,7 @@
 }
 .box-reseña-2{
     width: 500px;
-    height: 800px;
+    height: 850px;
     background-color: rgb(255, 255, 255);
     border-radius: 1%;
     border: solid;
@@ -38,17 +38,6 @@
     color: var(--azuloscuro);
     font-family: 'Caveat', cursive;
     font-size: 25px;
-}
-@media (max-width: 350px) {
-    .box-reseña{
-        width: 500px;
-        height: 1000px;
-
-    }
-    .box-reseña-2{
-        width: 500px;
-        height: 1000px;
-    }
 }
 /* BOXES RESEÑAS*/
 
